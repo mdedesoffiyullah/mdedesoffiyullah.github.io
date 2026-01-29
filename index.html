@@ -1,130 +1,131 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <title>M. Dede Soffi Yullah | Portofolio</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 40px;
-            background-color: #f7f7f7;
-            color: #333;
-            line-height: 1.6;
-        }
-        h1 {
-            margin-bottom: 5px;
-        }
-        h2 {
-            border-bottom: 2px solid #ddd;
-            padding-bottom: 5px;
-            margin-top: 40px;
-        }
-        section {
-            margin-bottom: 30px;
-        }
-        ul {
-            padding-left: 20px;
-        }
-        .contact a {
-            color: #0066cc;
-            text-decoration: none;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>M. Dede Soffi Yullah | Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
 
-<h1>M. Dede Soffi Yullah</h1>
-<p><strong>Administrasi | Operasional | Inventori</strong></p>
+<body class="bg-gray-900 text-gray-100">
 
-<section class="contact">
-    <p>
-        📧 <a href="mailto:mdedesoffiyullah@gmail.com">mdedesoffiyullah@gmail.com</a><br>
-        📱 0857-9732-4927<br>
-        🔗 <a href="https://www.linkedin.com/in/m-dede-soffiyullah-688647337" target="_blank">LinkedIn</a>
+<!-- NAVBAR -->
+<nav class="bg-gray-800 fixed w-full z-10">
+  <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+    <h1 class="text-xl font-bold">Dede</h1>
+    <div class="space-x-6 hidden md:block">
+      <a href="#about" class="hover:text-sky-400">About</a>
+      <a href="#experience" class="hover:text-sky-400">Experience</a>
+      <a href="#skills" class="hover:text-sky-400">Skills</a>
+      <a href="#projects" class="hover:text-sky-400">Projects</a>
+      <a href="#contact" class="hover:text-sky-400">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="min-h-screen flex items-center justify-center text-center px-6">
+  <div>
+    <h2 class="text-4xl md:text-5xl font-bold mb-4">
+      Hi, Saya <span class="text-sky-400">M. Dede Soffi Yullah</span>
+    </h2>
+    <p class="text-lg text-gray-300 mb-6">
+      Administrasi • Operasional • Inventori
     </p>
+    <a href="#contact" class="bg-sky-500 hover:bg-sky-600 px-6 py-3 rounded-lg font-semibold">
+      Hubungi Saya
+    </a>
+  </div>
 </section>
 
-<section>
-    <h2>Profil</h2>
-    <p>
-        Lulusan Program Studi Sistem Informasi Universitas Esa Unggul dengan IPK 3,52.
-        Memiliki pemahaman dalam pengelolaan data, administrasi sistem, serta penerapan teknologi
-        informasi untuk mendukung proses kerja yang terstruktur dan akuntabel.
-    </p>
-    <p>
-        Berpengalaman di bidang administrasi, operasional, dan inventori pada instansi pemerintah,
-        bengkel otomotif, kantor hukum, serta perusahaan swasta. Terbiasa mengelola dokumen,
-        pencatatan dan pengolahan data, penyusunan laporan, serta digitalisasi proses kerja manual.
-        Dikenal sebagai pribadi yang teliti, adaptif, dan bertanggung jawab.
-    </p>
+<!-- ABOUT -->
+<section id="about" class="max-w-6xl mx-auto px-6 py-20">
+  <h3 class="text-3xl font-bold mb-6">Tentang Saya</h3>
+  <p class="text-gray-300 leading-relaxed">
+    Lulusan Sistem Informasi Universitas Esa Unggul (IPK 3,52) dengan pengalaman
+    di bidang administrasi, operasional, dan inventori pada instansi pemerintah,
+    bengkel otomotif, kantor hukum, serta perusahaan swasta. Terbiasa mengelola
+    data, dokumen, laporan, dan digitalisasi proses kerja manual.
+  </p>
 </section>
 
-<section>
-    <h2>Pendidikan</h2>
-    <p>
-        <strong>Universitas Esa Unggul</strong><br>
-        Sarjana Sistem Informasi<br>
-        Lulus 2024 | IPK 3,52<br>
-        Jakarta, Indonesia
-    </p>
+<!-- EXPERIENCE -->
+<section id="experience" class="bg-gray-800 py-20">
+  <div class="max-w-6xl mx-auto px-6">
+    <h3 class="text-3xl font-bold mb-10">Pengalaman Kerja</h3>
+
+    <div class="space-y-8">
+      <div>
+        <h4 class="text-xl font-semibold">Doka Jaya Motor</h4>
+        <p class="text-gray-400 text-sm">Workshop Administration & Sales | 2020–2025</p>
+        <ul class="list-disc list-inside text-gray-300 mt-2">
+          <li>Administrasi servis dan transaksi harian</li>
+          <li>Rekap penjualan dan koordinasi bengkel</li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="text-xl font-semibold">Kementerian Kelautan dan Perikanan</h4>
+        <p class="text-gray-400 text-sm">Magang & Proyek Sistem | 2022–2024</p>
+        <ul class="list-disc list-inside text-gray-300 mt-2">
+          <li>Pengelolaan gudang & inventori kapal</li>
+          <li>Pengembangan website stok barang</li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="text-xl font-semibold">DAR Law Office</h4>
+        <p class="text-gray-400 text-sm">Legal Assistant | 2025</p>
+      </div>
+    </div>
+  </div>
 </section>
 
-<section>
-    <h2>Pengalaman Kerja</h2>
-
-    <p>
-        <strong>Doka Jaya Motor (DJM Pro Engine)</strong> – Jakarta<br>
-        Workshop Administration & Sales (Freelance) | Jul 2020 – Mar 2025
-    </p>
-    <ul>
-        <li>Menangani administrasi servis, transaksi harian, dan pencatatan operasional bengkel.</li>
-        <li>Mendukung proses jual beli motor dari sisi administrasi dan dokumentasi.</li>
-        <li>Menyusun rekap penjualan dan berkoordinasi dengan mekanik serta pemilik bengkel.</li>
-    </ul>
-
-    <p>
-        <strong>Kementerian Kelautan dan Perikanan (KKP)</strong> – Divisi Kapal Laut<br>
-        Magang & Proyek Sistem | Okt 2022 – Feb 2023 | Okt 2023 – Feb 2024
-    </p>
-    <ul>
-        <li>Terlibat dalam pengelolaan gudang dan data inventori suku cadang kapal.</li>
-        <li>Mengembangkan website stok barang untuk mendukung digitalisasi pencatatan.</li>
-        <li>Mendukung kegiatan operasional, perawatan kapal, dan dokumentasi sistem.</li>
-    </ul>
-
-    <p>
-        <strong>DAR Law Office</strong> – Tangerang<br>
-        Legal Assistant (Freelance) | Apr 2025 – Nov 2025
-    </p>
-    <ul>
-        <li>Membantu penyusunan draft dokumen hukum dan pemberkasan perkara.</li>
-        <li>Mengelola pengarsipan dokumen dan administrasi kantor hukum.</li>
-    </ul>
-
-    <p>
-        <strong>PT. Jago Berkat Makmur Persada</strong> – Tangerang<br>
-        Inventory & Data Administration (Project-Based) | Des 2025
-    </p>
-    <ul>
-        <li>Membuat sistem pencatatan barang masuk–keluar berbasis Google Forms & Sheets.</li>
-        <li>Mengubah proses manual menjadi sistem digital untuk meningkatkan akurasi data.</li>
-        <li>Menyusun rekap stok dan perhitungan laba secara otomatis.</li>
-    </ul>
+<!-- SKILLS -->
+<section id="skills" class="max-w-6xl mx-auto px-6 py-20">
+  <h3 class="text-3xl font-bold mb-6">Keahlian</h3>
+  <div class="grid grid-cols-2 md:grid-cols-3 gap-4 text-gray-300">
+    <span>Administrasi & Inventori</span>
+    <span>Google Sheets & Forms</span>
+    <span>Microsoft Excel</span>
+    <span>Digitalisasi Proses</span>
+    <span>HTML, CSS, Laravel</span>
+    <span>Kerja Tim & Problem Solving</span>
+  </div>
 </section>
 
-<section>
-    <h2>Keahlian</h2>
-    <ul>
-        <li>Administrasi operasional dan inventori</li>
-        <li>Pencatatan stok barang masuk & keluar</li>
-        <li>Pengelolaan data inventori</li>
-        <li>Digitalisasi proses kerja manual</li>
-        <li>Pengembangan web dasar (HTML, CSS, Laravel/PHP, SQL)</li>
-        <li>Microsoft Word, Excel, PowerPoint</li>
-        <li>Google Sheets & Google Forms</li>
-        <li>Pemecahan masalah operasional & kerja tim</li>
-    </ul>
+<!-- PROJECTS -->
+<section id="projects" class="bg-gray-800 py-20">
+  <div class="max-w-6xl mx-auto px-6">
+    <h3 class="text-3xl font-bold mb-6">Project</h3>
+    <div class="bg-gray-900 p-6 rounded-xl">
+      <h4 class="text-xl font-semibold">Sistem Administrasi & Inventori</h4>
+      <p class="text-gray-400 mb-4">
+        Website pencatatan stok dan transaksi berbasis Laravel & Google Sheets.
+      </p>
+      <a href="https://github.com/mdedesoffiyullah" target="_blank"
+         class="text-sky-400 hover:underline">
+        Lihat di GitHub →
+      </a>
+    </div>
+  </div>
 </section>
+
+<!-- CONTACT -->
+<section id="contact" class="max-w-6xl mx-auto px-6 py-20 text-center">
+  <h3 class="text-3xl font-bold mb-6">Kontak</h3>
+  <p class="text-gray-300 mb-2">📧 mdedesoffiyullah@gmail.com</p>
+  <p class="text-gray-300 mb-4">📱 0857-9732-4927</p>
+  <a href="https://www.linkedin.com/in/m-dede-soffiyullah-688647337"
+     target="_blank"
+     class="text-sky-400 hover:underline">
+    LinkedIn Profile
+  </a>
+</section>
+
+<footer class="bg-gray-900 text-center py-6 text-gray-500">
+  © 2026 M. Dede Soffi Yullah
+</footer>
 
 </body>
 </html>
